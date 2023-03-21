@@ -1,7 +1,125 @@
+html {
+  @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap");
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  background-color: rgb(215, 226, 233);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.container {
+  background-color: white;
+  height: 100%;
+  margin-top: 100px;
+  padding: 50px;
+}
+.setting {
+  display: flex;
+  position: relative;
+}
+#discussion {
+  margin-top: 150px;
+}
+#notification {
+  margin-top: 50px;
+  position: absolute;
+  left: 30px;
+  font-weight: bold;
+}
+.numberNotif {
+  background-color: hsl(224, 53%, 46%);
+  color: white;
+  padding: 2px 5px 2px 5px;
+  border-radius: 3px;
+}
+.allRead {
+  margin-top: 50px;
+  position: absolute;
+  right: 30px;
+  &:hover {
+    color: #117edd;
+  }
+}
+#mark {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#angela {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#jacob {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#rizky {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#kimberley {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#nathan {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
+}
+#anna {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.265);
+  padding: 10px 20px 10px 20px;
+  & p {
+    margin-left: 30px;
+  }
 }
